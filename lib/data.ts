@@ -2,7 +2,7 @@ import React from "react"
 import { CgWorkAlt } from "react-icons/cg"
 import { FaReact } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
-import corpcommentImg from "@/public/corpcomment.png"
+import fijomlaImg from "@/public/fijomla.png"
 import rmtdevImg from "@/public/rmtdev.png"
 import wordanalyticsImg from "@/public/wordanalytics.png"
 
@@ -22,10 +22,6 @@ export const links = [
     {
         name: "Skills",
         hash: "#skills",
-    },
-    {
-        name: "Experience",
-        hash: "#experience",
     },
     {
         name: "Contact",
@@ -62,11 +58,11 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "FiJomla",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "A web app that servers as a large collection of exemplary sentences of words to help students, new learners, and authors explore plethora of usages of a specific word.",
+        tags: ["React", "Next.js", "Prisma", "Tailwind", "React Query"],
+        imageUrl: fijomlaImg,
     },
     {
         title: "rmtDev",
@@ -91,17 +87,18 @@ export const skillsData = [
     "TypeScript",
     "React",
     "Next.js",
+    "Bootstrap",
+    "DaisyUI",
     "Node.js",
     "Git",
     "Tailwind",
     "Prisma",
     "MongoDB",
     "Redux",
-    "GraphQL",
-    "Apollo",
     "Express",
+    "Fetch",
+    "Axios",
+    "React Query",
     "PostgreSQL",
-    "Python",
-    "Django",
     "Framer Motion",
 ] as const

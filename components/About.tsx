@@ -18,32 +18,37 @@ const About = () => {
         >
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
-                After graduating with a degree in{" "}
-                <span className="font-medium">Accounting</span>, I decided to
-                pursue my passion for programming. I enrolled in a coding
-                bootcamp and learned{" "}
-                <span className="font-medium">full-stack web development</span>.{" "}
-                <span className="italic">My favorite part of programming</span>{" "}
-                is the problem-solving aspect. I{" "}
-                <span className="underline">love</span> the feeling of finally
-                figuring out a solution to a problem. My core stack is{" "}
-                <span className="font-medium">
-                    React, Next.js, Node.js, and MongoDB
-                </span>
-                . I am also familiar with TypeScript and Prisma. I am always
-                looking to learn new technologies. I am currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a
-                software developer.
+                In <span className="font-medium">2016</span>, I had a lot of
+                free time and I decided to learn a profession that&apos;ll prove
+                both enjoyable and profitable for me. I started out learning the
+                regular beginner stack{" "}
+                <span className="font-medium">HTML, CSS, JavaScript</span>, and{" "}
+                <span className="font-medium">PHP w/ MySQL</span>. I worked on
+                many online projects using this stack along with other
+                complimentary technologies like{" "}
+                <span className="font-medium">Bootstrap</span>,{" "}
+                <span className="font-medium">jQuery</span>, etc.
             </p>
 
-            <p>
-                <span className="italic">When I&apos;m not coding</span>, I
-                enjoy playing video games, watching movies, and playing with my
-                dog. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. I am
-                currently learning about{" "}
-                <span className="font-medium">history and philosophy</span>.
-                I&apos;m also learning how to play the guitar.
+            <p className="mb-3">
+                In <span className="font-medium">2020</span>, I discovered the
+                power of JavaScript being an all-timer, that if I focus on it,
+                I&apos;ll be able to create not just websites, but apps running
+                on all platforms and devices. Since then, I, daily, perfected my
+                knowledge of this future-proof language and settled on the main
+                stack that I am currently building powerful apps with. Which is{" "}
+                <span className="font-medium">Next.js</span>,{" "}
+                <span className="font-medium">TypeScript</span>,{" "}
+                <span className="font-medium">TailwindCSS + DaisyUI</span>, and{" "}
+                <span className="font-medium">Prisma</span> with{" "}
+                <span className="font-medium">MongoDB</span> or{" "}
+                <span className="font-medium">MySQL</span>.
+            </p>
+            <p className="mb-3">
+                When I am not programming, I enjoy being outside, visiting new
+                places, meeting new people, etc. I also love reading books,
+                especially in the <span className="font-medium">history</span>{" "}
+                and <span className="font-medium">psychology</span> genre.
             </p>
         </motion.section>
     )
