@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa"
 import { LuGraduationCap } from "react-icons/lu"
 import jomlaImg from "@/public/fijomla.png"
 import toolsImg from "@/public/tools.png"
+import soonImg from "@/public/soon.jpg"
 
 export const links = [
     {
@@ -71,6 +72,22 @@ export const projectsData = [
         tags: ["React", "Next.js", "Prisma", "Tailwind", "MySQL"],
         imageUrl: jomlaImg,
         url: "https://fijomla.com",
+    },
+    {
+        title: "Almas",
+        description:
+            "A clinic management software designed for every health clinic in the world.",
+        tags: [
+            "React",
+            "Next.js",
+            "MongoDB",
+            "Tailwind",
+            "Expo",
+            "React Native",
+            "PWA",
+        ],
+        imageUrl: soonImg,
+        url: "https://almas-clinics.com",
     },
 ] as const
 

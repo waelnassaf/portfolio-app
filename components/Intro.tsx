@@ -66,8 +66,11 @@ const Intro = () => {
                 <span className="font-bold">Hello, I&apos;m Wael.</span>{" "}
                 I&apos;m a{" "}
                 <span className="font-bold">full-stack developer</span> with{" "}
-                <span className="font-bold">8 years</span> of experience. I
-                build <span className="italic">sites & apps</span>. My focus is{" "}
+                <span className="font-bold">
+                    {new Date().getFullYear() - 2016} years
+                </span>{" "}
+                of experience. I build{" "}
+                <span className="italic">sites & apps</span>. My focus is{" "}
                 <span className="underline">
                     React w/ the Next.js Framework
                 </span>
